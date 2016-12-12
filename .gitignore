@@ -1,47 +1,113 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+#	huutomerkki.sample = ÄLÄ ignore	puska#.sample = kommentti	tahti*.sample = An asterisk is a wildcard that matches zero or more characters./ignore		piste.sample = By default, patterns match files in any directory/ignore		more: https://www.atlassian.com/git/tutorials/gitignore/#git-ignore-patterns
+#
+#	ELI	listaa ei paivitettavat / kaikki paitsi paivitettavat
+#	
+.gitignore
+c_baseentity.cpp
+c_colorcorrection.cpp
+c_vguiscreen.cpp
+fx_impact.cpp
+CommentarySystem.cpp
+EntityDissolve.cpp
+EnvHudHint.cpp
+EnvMessage.cpp
+ai_basenpc.cpp
+ai_basenpc.h
+ai_basenpc_schedule.cpp
+ai_behavior_fear.cpp
+ai_behavior_follow.cpp
+ai_behavior_lead.cpp
+ai_behavior_standoff.cpp
+ai_hint.cpp
+ai_planesolver.cpp
+ai_playerally.cpp
+ai_relationship.cpp
+ai_scriptconditions.cpp
+ai_speech.cpp
+ai_utils.h
+basecombatcharacter.cpp
+baseentity.cpp
+baseflex.cpp
+colorcorrectionvolume.cpp
+effects.cpp
+entitylist.cpp
+env_zoom.cpp
+gameweaponmanager.cpp
+genericactor.cpp
+gib.cpp
+ai_allymanager.cpp
+ai_behavior_actbusy.cpp
+antlion_maker.cpp
+combine_mine.cpp
+env_headcrabcanister.cpp
+func_tank.cpp
+hl_player.cpp
+item_dynamic_resupply.cpp
+npc_antlion.cpp
+npc_antlionguard.cpp
+npc_attackchopper.cpp
+npc_basescanner.cpp
+npc_citizen.cpp
+npc_combine.cpp
+npc_combinedropship.cpp
+npc_combinegunship.cpp
+npc_dog.cpp
+npc_enemyfinder.cpp
+npc_headcrab.cpp
+npc_metropolice.cpp
+npc_playercompanion.cpp
+npc_rollermine.cpp
+npc_scanner.cpp
+npc_strider.cpp
+npc_turret_floor.cpp
+npc_vortigaunt_episodic.cpp
+prop_combine_ball.cpp
+proto_sniper.cpp
+script_intro.cpp
+vehicle_crane.cpp
+vehicle_prisoner_pod.cpp
+vehicle_viewcontroller.cpp
+hlmp_player.cpp
+hlmp_player.h
+ilagcompensationmanager.h
+logicentities.cpp
+maprules.cpp
+message_entity.cpp
+monstermaker.cpp
+npc_talker.cpp
+physics_impact_damage.cpp
+physics_npc_solver.cpp
+player.cpp
+player.h
+player_lagcompensation.cpp
+player_pickup.cpp
+sceneentity.cpp
+test_stressentities.cpp
+triggers.cpp
+util.cpp
+util.h
+achievements_hlx.cpp
+basecombatweapon_shared.cpp
+baseentity_shared.cpp
+gamemovement.cpp
+gamerules.cpp
+hl_gamerules.cpp
+hlmp_gamerules.cpp
+hlmp_gamerules.h
+weapon_ar.cpp
+weapon_ar.h
+weapon_crowbar.cpp
+weapon_crowbar.h
+weapon_frag.cpp
+weapon_hlmpbase.h
+weapon_pistol.cpp
+weapon_rpg.cpp
+weapon_rpg.h
+weapon_shotgun.cpp
+weapon_smg.cpp
+weapon_stunstick.cpp
+multiplay_gamerules.cpp
+particlesystemquery.cpp
+ragdoll_shared.cpp
+teamplayroundbased_gamerules.cpp
+util_shared.cpp 
